@@ -58,6 +58,20 @@
     * Discard commits that you no longer need using the git reset command. You can specify the scope for the reset command by going into reset mode.
     <img width="569" alt="Screenshot 2021-06-19 at 1 43 52 AM" src="https://user-images.githubusercontent.com/9089916/122611914-cf3a1600-d09f-11eb-956f-0c2d5c3cb4a0.png">
     
-    * 
+    Lets undertsand the same using the idea of thre trees in git (working directory, staging, repository).
+    * Lets create a new repository with the following commands
+      <img width="645" alt="Screenshot 2021-06-19 at 12 03 51 PM" src="https://user-images.githubusercontent.com/9089916/122633462-78136000-d0f6-11eb-9ee9-337825061e34.png">
+  
+    * The example creates a new git repository with an empty file and with a single commit with commit id **b9b78d8**
+
+   Now Lets examine the working directory
+   
+    * This tree is in sync with the local file system and is represents the changes made in contents of files and directories. Lets understand the same using the following command
+    
+      <img width="518" alt="Screenshot 2021-06-19 at 12 10 53 PM" src="https://user-images.githubusercontent.com/9089916/122633675-67171e80-d0f7-11eb-8dd8-b788756b43bd.png">
+    
+    * We modified the file in the directory and as we can see Git is aware of the change. Currently, the change is a part of the working directory (first tree).Git status can be used to show changes to the Working Directory. They will be displayed in the red with a 'modified' prefix.
+
+    
 
 
